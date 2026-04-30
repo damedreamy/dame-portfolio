@@ -4,11 +4,11 @@ import Projects from "./projects/page";
 import Contact from "./contact/page";
 import AboutMe from "./about/page";
 import Hero from "./hero/page";
-import { TracingBeam } from "@/components/ui/tracing-beam";
+
 
 export default function Home() {
   return (
-    <TracingBeam>
+
       <main className="text-white min-h-screen pb-40">
         {/* HERO */}
         <section id="hero">
@@ -30,6 +30,6 @@ export default function Home() {
           <Contact />
         </section>
       </main>
-    </TracingBeam>
+
   );
 }
