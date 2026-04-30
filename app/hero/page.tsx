@@ -39,7 +39,7 @@ export default function Hero() {
                                 className="px-6 py-3 rounded-xl 
                                 bg-gradient-to-r from-purple-500 via-pink-300 to-pink-400 
                                 shadow-[0_0_20px_rgba(168,85,247,0.6)] 
-                                hover:shadow-[0_0_45px_rgba(236,72,153,0.9)]
+                              
                                 transform hover:scale-105 active:scale-95
                                 transition-transform duration-300 ease-out"
                             >
@@ -68,8 +68,8 @@ export default function Hero() {
                 {/* RIGHT IMAGE */}
                 <div className="relative w-[220px] md:w-[340px] flex justify-center">
 
-                    <div className="absolute inset-0 rounded-full bg-cyan-500 blur-3xl opacity-30"></div>
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 blur-2xl opacity-60"></div>
+                    <div className="absolute inset-0 rounded-full bg-cyan-500 blur-sm opacity-30"></div>
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 blur-xl opacity-60"></div>
                     <div className="absolute inset-2 rounded-full border border-white/10 backdrop-blur-md"></div>
 
                     <Image

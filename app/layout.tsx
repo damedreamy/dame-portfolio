@@ -51,7 +51,7 @@ export default function RootLayout({
 
         {/* FOOTER */}
         <footer className="p-6 border-t border-white/10 text-center text-sm text-gray-400 backdrop-blur-md bg-black/40 relative z-10">
-          © 2026 Rencess Portfolio
+         © 2026 Dame's Portfolio. All rights reserved.
         </footer>
       </body>
     </html>
